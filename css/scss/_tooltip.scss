@@ -1,0 +1,9 @@
+.tooltip{
+    position: absolute;
+    background: rgba(lighten($primary, 10), .9);
+    padding: 1rem;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: 0 .2rem .5rem rgba(black, .5);
+    font-size: .9rem;
+}

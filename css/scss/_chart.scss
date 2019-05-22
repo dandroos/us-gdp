@@ -1,0 +1,40 @@
+#chart{
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background: rgba(black, .8);
+    box-shadow: 0 1rem 2rem black;
+    color: white;
+    width: 75vw;
+}
+
+#title{
+    text-align: center;
+}
+
+.bar{
+    fill: $primary;
+    &:hover{
+        fill: white;
+    }
+}
+
+text{
+    font-family: 'ubuntu';
+}
+
+#axis-label{
+    fill: $primary;
+    font-size: .75rem;
+}
+
+@media(max-width: 800px){
+    #chart{
+        width: 90vw;
+    }
+}
+
+@media(max-width: 550px){
+    #chart{
+        width: 97.5vw;
+    }
+}

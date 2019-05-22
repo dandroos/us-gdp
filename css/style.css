@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background: radial-gradient(transparent, rgba(0, 0, 0, 0.9)), radial-gradient(rgba(0, 100, 0, 0.5), rgba(0, 0, 0, 0.7)), url(https://source.unsplash.com/8lnbXtxFGZw/1600x900);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'ubuntu';
+  cursor: default; }
+
+.tooltip {
+  position: absolute;
+  background: rgba(0, 151, 0, 0.9);
+  padding: 1rem;
+  border-radius: .5rem;
+  text-align: center;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+  font-size: .9rem; }
+
+#chart {
+  padding: 1.5rem;
+  border-radius: .5rem;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 1rem 2rem black;
+  color: white;
+  width: 75vw; }
+
+#title {
+  text-align: center; }
+
+.bar {
+  fill: darkgreen; }
+  .bar:hover {
+    fill: white; }
+
+text {
+  font-family: 'ubuntu'; }
+
+#axis-label {
+  fill: darkgreen;
+  font-size: .75rem; }
+
+@media (max-width: 800px) {
+  #chart {
+    width: 90vw; } }
+@media (max-width: 550px) {
+  #chart {
+    width: 97.5vw; } }
+.loading {
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  transition: all .5s; }
+
+.hide {
+  opacity: 0;
+  z-index: -5000; }
+
+/*# sourceMappingURL=style.css.map */
